@@ -17,7 +17,6 @@ def input_clr():
     input_field.delete(0, END)
 
 def input_equals():
-    global values
     values = str(input_field.get())
     result = str(eval(values))
     input_field.delete(0, END)
